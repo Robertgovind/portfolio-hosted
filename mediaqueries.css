@@ -1,0 +1,178 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hamburger {
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform:translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform:translateY(-8px) rotate(-45deg);
+  }
+  .my-name{
+    padding-top: 71px;
+  }
+  .nav-menu{
+    position:fixed;
+    left:-100%;
+    top: 70px;
+    gap:0;
+    flex-direction: column;
+    background-color:#262626;
+    width:100%;
+    text-align:center;
+    transition: 0.3s;
+  }
+  .nav-item{
+    margin:16px 0;
+  }
+  .nav-menu.active{
+    left:0;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer{
+    margin-top:2rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+}
+
+
+@media screen and (max-width: 1033px) {
+  .prev,
+  .next {
+    display: none; /* Hide the buttons when the screen width is 768px or less */
+  }
+}
+@media screen and (max-width: 1033px) {
+  .prevs,
+  .nexts {
+    display: none; /* Hide the buttons when the screen width is 768px or less */
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  #Certificate .details-container-certificate img{
+  height: 100%;
+  width:100%;
+  max-width: 400px;
+  max-height: 400px;
+  margin: 0px;
+}
+#projects{
+  margin: 0px;
+}
+#Certificate{
+  margin: 0px;
+}
+.myslide{
+  margin:0;
+}
+img[src="assets/certificate-2.png"] {
+  height: 300px;
+}
+
+.nav-links-containers{
+  margin-top:100px;
+}
+#projects {
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+#Certificate {
+  margin-top: 20px; /* Adjust as needed */
+}
+}
